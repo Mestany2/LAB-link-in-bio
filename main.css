@@ -1,7 +1,50 @@
 body{
-    background-color: lightslategray;
+    background-color:lightsteelblue
 }
 .profile {
     border-radius: 50%;
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info{
+    margin: auto;
+    width:50%;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration:;
+  border-radius: 50%;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa:hover{
+    opacity: .7;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.btn:hover{
+    background: #bb0000;
 }
